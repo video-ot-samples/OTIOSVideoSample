@@ -1,0 +1,16 @@
+PODS:
+  - OTXCFramework (2.25.3)
+
+DEPENDENCIES:
+  - OTXCFramework (= 2.25.3)
+
+SPEC REPOS:
+  trunk:
+    - OTXCFramework
+
+SPEC CHECKSUMS:
+  OTXCFramework: 368314aea3970cfbeedf1cf53aa3e4f48f741157
+
+PODFILE CHECKSUM: 02d0ce116941175d4800b2a6e42d4db1afe82e36
+
+COCOAPODS: 1.12.1

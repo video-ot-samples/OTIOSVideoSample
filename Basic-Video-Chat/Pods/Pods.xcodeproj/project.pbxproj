@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		D7805B0B0B5D119B1B9EA7D27ECA7766 /* OTXCFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2305BF5FD2B8B528E5C6E1A8DDFA0E34 /* Build configuration list for PBXAggregateTarget "OTXCFramework" */;
+			buildPhases = (
+				CFC2F3D530022AD67DD98ABB0B16B27F /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = OTXCFramework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		082609E6768A7A3A26A89C7CA7D0AD8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8A267AE12B111C8DB0D6151211ABA94E /* Pods-Basic-Video-Chat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 606ADA57470E07449EBE2AD6C6BD3EFE /* Pods-Basic-Video-Chat-dummy.m */; };
+		8B161919E964637E967D2A4F014B6EA2 /* Pods-Basic-Video-Chat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7D643D3BC0CE9880FACB066B07AD936 /* Pods-Basic-Video-Chat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D38A8A94735D47AB1F21E7AD791A7B48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7805B0B0B5D119B1B9EA7D27ECA7766;
+			remoteInfo = OTXCFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BDE96B2FF3ACA2F0FFE95C38AD6688F /* Pods-Basic-Video-Chat-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Basic-Video-Chat-Info.plist"; sourceTree = "<group>"; };
+		3A1EB521713C0CEC0155D742BFD94628 /* Pods-Basic-Video-Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Basic-Video-Chat.debug.xcconfig"; sourceTree = "<group>"; };
+		45A066EA67C7D8495FEB4655856E7687 /* selfie_segmentation.tflite */ = {isa = PBXFileReference; includeInIndex = 1; name = selfie_segmentation.tflite; path = "OpenTok.xcframework/ios-arm64/OpenTok.framework/selfie_segmentation.tflite"; sourceTree = "<group>"; };
+		4CAED96BEA711E32348CBC4E84237AB1 /* OpenTok.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = OpenTok.xcframework; sourceTree = "<group>"; };
+		5768F412C1CA2DC657E9D4C3ECE63BF9 /* OTXCFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTXCFramework.debug.xcconfig; sourceTree = "<group>"; };
+		606ADA57470E07449EBE2AD6C6BD3EFE /* Pods-Basic-Video-Chat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Basic-Video-Chat-dummy.m"; sourceTree = "<group>"; };
+		6463A2FD9943DE673B9B053FF1FB7AFB /* Pods-Basic-Video-Chat-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Basic-Video-Chat-acknowledgements.markdown"; sourceTree = "<group>"; };
+		66B34586C9B6CDC5CF0612F62E274799 /* Pods-Basic-Video-Chat-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Basic-Video-Chat-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		84D992C4845773B07BD316B13FD26C75 /* Pods-Basic-Video-Chat-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Basic-Video-Chat-resources.sh"; sourceTree = "<group>"; };
+		91D7D245CB04BD531E3D4A79214FD4C6 /* OTXCFramework-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "OTXCFramework-xcframeworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1DBB788139E6CB93D1E2A8DC32B7B01 /* Pods-Basic-Video-Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Basic-Video-Chat.release.xcconfig"; sourceTree = "<group>"; };
+		A7AA3051FB908A152652056ABF98D9B1 /* Pods-Basic-Video-Chat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Basic-Video-Chat.modulemap"; sourceTree = "<group>"; };
+		B7D643D3BC0CE9880FACB066B07AD936 /* Pods-Basic-Video-Chat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Basic-Video-Chat-umbrella.h"; sourceTree = "<group>"; };
+		F107D85FC910AE2F90C26459152BB7B5 /* Pods-Basic-Video-Chat */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Basic-Video-Chat"; path = Pods_Basic_Video_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A6EBC363C0F7E79EE7ECDFD89203FA /* OTXCFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTXCFramework.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F11119ECBF7FC093FAFC6B318A6B93D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082609E6768A7A3A26A89C7CA7D0AD8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12AA8744B175B19D029BE8DF3EEC18E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F107D85FC910AE2F90C26459152BB7B5 /* Pods-Basic-Video-Chat */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6C55CCDAE64D4E204E09ACBFBEB35331 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E022E10D2523666592FBC8E9E4AA96F9 /* OTXCFramework */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E45ABA9A1CA699024D971950119ADED /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A17F3757AD0C0F859726EC94EB8539C7 /* Pods-Basic-Video-Chat */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A17F3757AD0C0F859726EC94EB8539C7 /* Pods-Basic-Video-Chat */ = {
+			isa = PBXGroup;
+			children = (
+				A7AA3051FB908A152652056ABF98D9B1 /* Pods-Basic-Video-Chat.modulemap */,
+				6463A2FD9943DE673B9B053FF1FB7AFB /* Pods-Basic-Video-Chat-acknowledgements.markdown */,
+				66B34586C9B6CDC5CF0612F62E274799 /* Pods-Basic-Video-Chat-acknowledgements.plist */,
+				606ADA57470E07449EBE2AD6C6BD3EFE /* Pods-Basic-Video-Chat-dummy.m */,
+				2BDE96B2FF3ACA2F0FFE95C38AD6688F /* Pods-Basic-Video-Chat-Info.plist */,
+				84D992C4845773B07BD316B13FD26C75 /* Pods-Basic-Video-Chat-resources.sh */,
+				B7D643D3BC0CE9880FACB066B07AD936 /* Pods-Basic-Video-Chat-umbrella.h */,
+				3A1EB521713C0CEC0155D742BFD94628 /* Pods-Basic-Video-Chat.debug.xcconfig */,
+				A1DBB788139E6CB93D1E2A8DC32B7B01 /* Pods-Basic-Video-Chat.release.xcconfig */,
+			);
+			name = "Pods-Basic-Video-Chat";
+			path = "Target Support Files/Pods-Basic-Video-Chat";
+			sourceTree = "<group>";
+		};
+		B8AC37BA3DE83BFC36BCEEC2A98DA08C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CAED96BEA711E32348CBC4E84237AB1 /* OpenTok.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4A736062FB655CAE4641B8AB906B3EB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				45A066EA67C7D8495FEB4655856E7687 /* selfie_segmentation.tflite */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C93C19A930EA4E3622BB271C00CFDF6D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				91D7D245CB04BD531E3D4A79214FD4C6 /* OTXCFramework-xcframeworks.sh */,
+				5768F412C1CA2DC657E9D4C3ECE63BF9 /* OTXCFramework.debug.xcconfig */,
+				F7A6EBC363C0F7E79EE7ECDFD89203FA /* OTXCFramework.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OTXCFramework";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				6C55CCDAE64D4E204E09ACBFBEB35331 /* Pods */,
+				12AA8744B175B19D029BE8DF3EEC18E9 /* Products */,
+				6E45ABA9A1CA699024D971950119ADED /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E022E10D2523666592FBC8E9E4AA96F9 /* OTXCFramework */ = {
+			isa = PBXGroup;
+			children = (
+				B8AC37BA3DE83BFC36BCEEC2A98DA08C /* Frameworks */,
+				C4A736062FB655CAE4641B8AB906B3EB /* Resources */,
+				C93C19A930EA4E3622BB271C00CFDF6D /* Support Files */,
+			);
+			name = OTXCFramework;
+			path = OTXCFramework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4057F5102F34B49B4CFBDD502D085E6C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B161919E964637E967D2A4F014B6EA2 /* Pods-Basic-Video-Chat-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5130BE0FC617AB57E237C5B806FC7CAA /* Pods-Basic-Video-Chat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB12CDE879CDFB4C59EAE362345E828 /* Build configuration list for PBXNativeTarget "Pods-Basic-Video-Chat" */;
+			buildPhases = (
+				4057F5102F34B49B4CFBDD502D085E6C /* Headers */,
+				7569E5B6FD87C815EE2D97EDBD77B224 /* Sources */,
+				F11119ECBF7FC093FAFC6B318A6B93D3 /* Frameworks */,
+				4CD81B1B002F1BF95F9FCA08232449A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E84288DA0980A3AE257FDFC002B605FF /* PBXTargetDependency */,
+			);
+			name = "Pods-Basic-Video-Chat";
+			productName = Pods_Basic_Video_Chat;
+			productReference = F107D85FC910AE2F90C26459152BB7B5 /* Pods-Basic-Video-Chat */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 12AA8744B175B19D029BE8DF3EEC18E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7805B0B0B5D119B1B9EA7D27ECA7766 /* OTXCFramework */,
+				5130BE0FC617AB57E237C5B806FC7CAA /* Pods-Basic-Video-Chat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CD81B1B002F1BF95F9FCA08232449A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CFC2F3D530022AD67DD98ABB0B16B27F /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/OTXCFramework/OTXCFramework-xcframeworks.sh",
+				"${PODS_ROOT}/OTXCFramework/OpenTok.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OTXCFramework/OpenTok.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/OTXCFramework/OTXCFramework-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7569E5B6FD87C815EE2D97EDBD77B224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A267AE12B111C8DB0D6151211ABA94E /* Pods-Basic-Video-Chat-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E84288DA0980A3AE257FDFC002B605FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OTXCFramework;
+			target = D7805B0B0B5D119B1B9EA7D27ECA7766 /* OTXCFramework */;
+			targetProxy = D38A8A94735D47AB1F21E7AD791A7B48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12F372ACC5437D01A5891CC6D93FE884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7A6EBC363C0F7E79EE7ECDFD89203FA /* OTXCFramework.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36FEEF3012409668C7DF13BC42D2E780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5768F412C1CA2DC657E9D4C3ECE63BF9 /* OTXCFramework.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45242B6E390CD51A72D8CA842703A3B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A1EB521713C0CEC0155D742BFD94628 /* Pods-Basic-Video-Chat.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Basic-Video-Chat/Pods-Basic-Video-Chat-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Basic-Video-Chat/Pods-Basic-Video-Chat.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F3ABC208F154C8DD170DCF689E0209DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1DBB788139E6CB93D1E2A8DC32B7B01 /* Pods-Basic-Video-Chat.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Basic-Video-Chat/Pods-Basic-Video-Chat-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Basic-Video-Chat/Pods-Basic-Video-Chat.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2305BF5FD2B8B528E5C6E1A8DDFA0E34 /* Build configuration list for PBXAggregateTarget "OTXCFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36FEEF3012409668C7DF13BC42D2E780 /* Debug */,
+				12F372ACC5437D01A5891CC6D93FE884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB12CDE879CDFB4C59EAE362345E828 /* Build configuration list for PBXNativeTarget "Pods-Basic-Video-Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45242B6E390CD51A72D8CA842703A3B3 /* Debug */,
+				F3ABC208F154C8DD170DCF689E0209DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
