@@ -1,0 +1,7 @@
+platform :ios, '13.0'
+use_frameworks!
+
+target 'Basic-Video-Chat' do
+  pod 'OTXCFramework', '2.25.3'
+  # pod 'OpenTok', '2.21.0'
+end
